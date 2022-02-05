@@ -1,3 +1,6 @@
+.header-container {
+  margin-bottom: 10px;
+}
 .header-container .header-image-container {
   position: relative;
 }
