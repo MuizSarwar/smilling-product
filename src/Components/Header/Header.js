@@ -6,8 +6,11 @@ import './Header.css';
 const Header = () => {
     return (
         <div className='header-container'>
+            <div className="header-image-container">
             <img src={header} alt="header" />
-            <h1 className='header-name'> Smilling Product</h1>
+            <h1 className='header-name'> Smilling Product</h1>    
+            </div>
+            
         </div>
     );
 };
