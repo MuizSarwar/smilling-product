@@ -9,6 +9,10 @@
   font-size: 16px;
   /* padding: 5px; */
 }
+.product-container .product-details .product-others-details {
+  display: flex;
+  justify-content: space-around;
+}
 .style-btn {
   margin: 10px;
   padding: 5px 40px 5px 40px;
@@ -17,4 +21,5 @@
   border: none;
   border-radius: 5px;
   font-weight: 700;
+  cursor: pointer;
 }

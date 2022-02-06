@@ -11,17 +11,23 @@ const Product = (props) => {
             </div>
 
             <div className="product-details">
-                <h3>Name:{name}</h3>
+                <h3>{name}</h3>
                 <p>by:{seller}</p>
-                <p>price:{price}</p>
-                <p><small>Only {stock} left in stock,order soon </small></p>
-                <div>
-                    <p>star:{star}</p>
+                <div className='product-others-details'>
                     <div>
-                    {features.map(feature => <p>{feature.description}:{feature.value}</p>)}
-                     </div>
+                        <p>price:{price}</p>
+                        <p><small>Only {stock} left in stock,order soon </small></p>
+                        <button className='style-btn'>Add to cart</button>
+
+                    </div>
+                    <div>
+                        <p>star:{star}</p>
+                        <div>
+                            {features.map(feature => <p>{feature.description}:{feature.value}</p>)}
+                        </div>
+                    </div>
                 </div>
-                <button className='style-btn'>Add to cart</button>
+                
 
             </div>
             
