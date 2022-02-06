@@ -1,0 +1,11 @@
+.product-container {
+  display: flex;
+  border-bottom: 2px solid #ef3e1f;
+}
+.product-container .product-image img {
+  /* padding: 5px; */
+}
+.product-container .product-details {
+  font-size: 16px;
+  /* padding: 5px; */
+}

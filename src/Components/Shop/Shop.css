@@ -1,5 +1,13 @@
 .shop-container {
   display: flex;
+  /* padding: 20px; */
 }
 .shop-container .shop-product {
+  width: 80%;
+  padding-left: 200px;
+  border-right: 1px solid #ef3e1f;
+}
+
+.shop-container .shop-cart {
+  width: 20%;
 }
