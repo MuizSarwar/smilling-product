@@ -21,7 +21,7 @@ const Product = (props) => {
                     {features.map(feature => <p>{feature.description}:{feature.value}</p>)}
                      </div>
                 </div>
-                <button>Add to cart</button>
+                <button className='style-btn'>Add to cart</button>
 
             </div>
             

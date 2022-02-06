@@ -9,3 +9,12 @@
   font-size: 16px;
   /* padding: 5px; */
 }
+.style-btn {
+  margin: 10px;
+  padding: 5px 40px 5px 40px;
+  background-color: #a60d07;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+}

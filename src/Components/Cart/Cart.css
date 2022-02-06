@@ -1,0 +1,21 @@
+.cart-container {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #a60d07;
+  border-radius: 5px;
+}
+.cart-container div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #a60d07;
+  font-size: 12px;
+}
+.cart-container button {
+  margin: 10px;
+  padding: 5px 40px 5px 40px;
+  background-color: #a60d07;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
