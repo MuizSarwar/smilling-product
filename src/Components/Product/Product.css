@@ -13,6 +13,12 @@
   display: flex;
   justify-content: space-around;
 }
+.product-container .product-details .product-others-details div {
+  width: 50%;
+}
+.product-others-details div ul li {
+  font-size: 12px;
+}
 .style-btn {
   margin: 10px;
   padding: 5px 40px 5px 40px;
